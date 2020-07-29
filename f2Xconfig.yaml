@@ -1,0 +1,28 @@
+fofa:
+  email: {fofa账户}
+  key: {fofaKey}
+
+  # 固定查询语句
+  fixedQuerySyntexList:
+    - status_code=200
+    - country="CN"
+
+  # 查询语法
+  # 更多查询语法见https://fofa.so/
+  querySyntax: host
+
+  # 使用querySyntax查询语法分别查询target
+  targetList:
+    - .hubu.edu.cn
+#    - .hbue.edu.cn
+#    - .wust.edu.cn
+xray:
+  #path没有用，必须把xray可执行文件放在脚本同一目录
+  path: D:\CyberSecurityTools\xray_windows_amd64\xray_windows_amd64.exe
+
+  #fofa2Xray相同目录下xray的全名
+  name: xray_windows_amd64.exe
+
+  #同时运行xray的最大数
+  thread: 10
+
