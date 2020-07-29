@@ -11,6 +11,10 @@ A tool that can combine <a href="https://fofa.so/">fofa</a> and <a href="https:/
 
 Coding by golang, both for windows and linux.
 
+## Introduction
+
+Use fofa api to get target domain list,  then make webscan by xray.
+
 ## Demo
 
 ![image-20200729095201091](https://github.com/piaolin/fofa2Xray/blob/master/pics/image-20200729095201091.png?raw=true)
