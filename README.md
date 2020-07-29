@@ -13,17 +13,17 @@ Coding by golang, both for windows and linux.
 
 ## Demo
 
-![image-20200729095201091](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20200729095201091.png)
+![image-20200729095201091](https://github.com/piaolin/fofa2Xray/blob/master/pics/image-20200729095201091.png?raw=true)
 
 ## Quick start
 
-1. Move xray to the directory where fofa2xray is located
+1. ##### Move xray to the directory where fofa2xray is located
 
-   <img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20200729093958904.png" alt="image-20200729093958904" style="zoom: 200%;" />
+   <img src="https://raw.githubusercontent.com/piaolin/fofa2Xray/master/pics/image-20200729093958904.png" alt="image-20200729093958904" style="zoom: 200%;" />
 
    
 
-2. Vi f2Xconfig.yaml
+2. ##### Vi f2Xconfig.yaml
 
    ~~~yaml
    fofa:
@@ -57,22 +57,18 @@ Coding by golang, both for windows and linux.
 
    
 
-3. Run fofa2Xray.
+3. ##### Run fofa2Xray.
 
    ~~~yaml
    ./fofa2Xray
    nohup ./fofa2Xray &  // 持久化
    ~~~
 
-4. Check Result.
+4. ##### Check Result.
 
-   ~~~shell
-   
-   ~~~
+   Fofa2Xray will create result folder for every target.
 
-
-
-
+   <img src="https://raw.githubusercontent.com/piaolin/fofa2Xray/master/pics/image-20200729095822453.png" alt="image-20200729095822453" style="zoom:200%;" />
 
 
 
