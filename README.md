@@ -1,7 +1,7 @@
 # fofa2Xray
 <p>
-  <img src="https://img.shields.io/github/release/chaitin/xray.svg" />
-  <img src="https://img.shields.io/github/release-date/chaitin/xray.svg?color=blue&label=update" />
+  <img src="https://img.shields.io/github/v/release/piaolin/fofa2Xray.svg" />
+  <img src="https://img.shields.io/github/release-date/pianlin/fofa2Xray.svg?color=blue&label=update" />
   <a href="https://github.com/piaolin/fofa2Xray/blob/master/README.md/">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
