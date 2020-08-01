@@ -1,7 +1,7 @@
 # fofa2Xray
 <p>
   <img src="https://img.shields.io/github/v/release/piaolin/fofa2Xray.svg" />
-  <img src="https://img.shields.io/github/release-date/pianlin/fofa2Xray.svg?color=blue&label=update" />
+  <img src="https://img.shields.io/github/release-date/piaolin/fofa2Xray.svg?color=blue&label=update" />
   <a href="https://github.com/piaolin/fofa2Xray/blob/master/README.md/">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
@@ -10,6 +10,12 @@
 A tool that can combine <a href="https://fofa.so/">fofa</a> and <a href="https://github.com/chaitin/xray">xray</a> for automatic batch scanning.
 
 Coding by golang, both for windows and linux.
+
+## Documentation
+
+- [English](https://github.com/piaolin/fofa2Xray/blob/master/README.md)
+
+- [中文文档](https://github.com/piaolin/fofa2Xray/blob/master/README_ZH.md)
 
 ## Introduction
 
