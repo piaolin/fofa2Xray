@@ -9,7 +9,7 @@
 
 A tool that can combine <a href="https://fofa.so/">fofa</a> and <a href="https://github.com/chaitin/xray">xray</a> for automatic batch scanning.
 
-Coding by golang, both for windows and linux.
+Coding by golang, both for windows, linux and macOS.
 
 ## Documentation
 
