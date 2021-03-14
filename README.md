@@ -11,11 +11,14 @@ A tool that can combine <a href="https://fofa.so/">fofa</a> and <a href="https:/
 
 Coding by golang, both for windows, linux and macOS.
 
+[Download](https://github.com/piaolin/fofa2Xray/releases)
+
 ## Documentation
 
 - [English](https://github.com/piaolin/fofa2Xray/blob/master/README.md)
 
 - [中文文档](https://github.com/piaolin/fofa2Xray/blob/master/README_ZH.md)
+
 
 ## Introduction
 
