@@ -1,6 +1,6 @@
 # fofa2Xray
 
-一款联合fofa与xray的自动化批量扫描工具
+一款联合fofa与xray的自动化多线程批量扫描工具，同时可以对IP/域名列表进行批量xray扫描。
 
 使用Golang编写，适用于windows与linux
 
@@ -18,9 +18,23 @@
 
 ![image20200729095201091.png](http://img.static.plat.wgpsec.org/knowledge/215807dc29ed4543a4e81591432e8492.png)
 
-## 快速使用
+## IP列表模式快速使用
 
-###### 1.    移动xray可执行程序到fofa2Xray同一目录(自带xray版本为1.1.0)
+###### 1. 在f2Xconfig.yaml中配置xray可执行文件地址和线程数
+
+![image-20210416150831024](https://i.loli.net/2021/04/16/mchjnNeZOudHAia.png)
+
+###### 2. 使用-t file指定为文件列表扫描模式（不带参数为fofa模式），-f指定IP列表文件
+
+~~~shell
+./fofa2Xray -t file -f ipList.txt
+~~~
+
+###### 3. 可能会有些奇怪，但是是为了更好的扩展性
+
+## Fofa模式快速使用
+
+###### 1.    移动xray可执行程序到fofa2Xray同一目录(自带xray版本为1.7.1)
 
 ![image20200729093958904.png](http://img.static.plat.wgpsec.org/knowledge/fe71794cf7b84642b9733dfb08ead530.png)
 
@@ -58,7 +72,7 @@ xray:
  thread: 10
 ~~~
 
-###### 3.    启动fofa2Xray
+###### 3.    启动fofa2Xray，默认为fofa模式
 
 ~~~shell
 ./fofa2Xray
