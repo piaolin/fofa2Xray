@@ -1,4 +1,5 @@
 # fofa2Xray
+
 <p>
   <img src="https://img.shields.io/github/v/release/piaolin/fofa2Xray.svg" />
   <img src="https://img.shields.io/github/release-date/piaolin/fofa2Xray.svg?color=blue&label=update" />
@@ -7,7 +8,9 @@
   </a>
 </p>
 
-A tool that can combine <a href="https://fofa.so/">fofa</a> and <a href="https://github.com/chaitin/xray">xray</a> for automatic batch scanning.
+A tool that can combine <a href="https://fofa.so/">fofa</a> and <a href="https://github.com/chaitin/xray">xray</a> for automatic batch multithreading scanning.
+
+Can also scan the IP/domain name list by using Xray.
 
 Coding by golang, both for windows, linux and macOS.
 
@@ -28,7 +31,21 @@ Use fofa api to get target domain list,  then make webscan by xray.
 
 ![image-20200729095201091](https://github.com/piaolin/fofa2Xray/blob/master/pics/image-20200729095201091.png?raw=true)
 
-## Quick start
+## File Mode Quick start
+
+###### 1. Configure the xray executable file address and the number of threads in f2Xconfig.yaml
+
+![image-20210416150831024](https://i.loli.net/2021/04/16/mchjnNeZOudHAia.png)
+
+###### 2. Using "-t file" specify as file list scan mode(default is fofa mode), -f specify IP list file
+
+~~~shell
+./fofa2Xray -t file -f ipList.txt
+~~~
+
+###### 3. Perhaps it's a little strange, but for better scalability
+
+## Fofa Mode Quick start
 
 1. ##### Move xray to the directory where fofa2xray is located
 
