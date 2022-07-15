@@ -8,7 +8,7 @@
   </a>
 </p>
 
-A tool that can combine <a href="https://fofa.so/">fofa</a> and <a href="https://github.com/chaitin/xray">xray</a> for automatic batch multithreading scanning.
+A tool that can combine <a href="https://fofa.info/">fofa</a> and <a href="https://github.com/chaitin/xray">xray</a> for automatic batch multithreading scanning.
 
 Can also scan the IP/domain name list by using Xray.
 
@@ -66,7 +66,7 @@ Use fofa api to get target domain list,  then make webscan by xray.
        - country="CN"
    
      # 查询语法
-     # 更多查询语法见https://fofa.so/
+     # 更多查询语法见https://fofa.info/
      querySyntax: host
    
      # 使用querySyntax查询语法分别查询target

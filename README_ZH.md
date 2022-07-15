@@ -51,7 +51,7 @@ fofa:
   - country="CN"
   
  # 查询语法
- # 更多查询语法见https://fofa.so/
+ # 更多查询语法见https://fofa.info/
 
  querySyntax: host
  # 使用querySyntax查询语法分别查询target
